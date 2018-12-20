@@ -1,6 +1,8 @@
 import java.util.Iterator;
 
 //ResizingArrayStack
+//File name do not match class name, necessary modifications required.
+
 public class ResizingArrayStack<Item>{
 	private Item[] a = (Item[]) new Object[1];
 	private int N = 0;
