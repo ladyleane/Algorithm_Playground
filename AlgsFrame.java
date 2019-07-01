@@ -1,10 +1,10 @@
-public class AlgsFrame{
+ public class AlgsFrame{
 	public static void sort(Comparable[] a){
-
+		
 	}
 
 	private static boolean less(Comparable v, Comparable w){
-
+		return v.compareTo(w) < 0
 	}
 
 	private static void exch(Comparable[] a, int i, int j){
