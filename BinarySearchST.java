@@ -69,7 +69,7 @@ public class BinarySearchST<Key extends Comparable<Key>, Value>{
             keys[j] = keys[j + 1];
             vals[j] = vals[j + 1];
         }
-        
+
         N--;
         keys[N] = null;  //To avoid loitering
         vals[N] = null;
@@ -102,9 +102,5 @@ public class BinarySearchST<Key extends Comparable<Key>, Value>{
 		keys[i] = key;
 		vals[i] = val;
 		N++;
-	}
-
-	public void delete(Key key){
-		//
 	}
 }
