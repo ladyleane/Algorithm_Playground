@@ -193,7 +193,7 @@ public class BST<Key extends Comparable<Key>, Value>{
 		if (cmphi > 0)	keys(x.right, queue, lo, hi);
 	}
 //print()
-	private vodi print(Node x){
+	private void print(Node x){
 		if (x == null) return;
 		print(x.left);
 		StdOut.print(x.key);
