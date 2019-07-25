@@ -11,6 +11,7 @@ public class Graph{
     }
 
     public Graph(In in){
+        //Read a Graph from Input:V, E, (v, w), ...
         this(in.readInt());
         int E = in.readInt();
         for (int i = 0; i < E; i++){
