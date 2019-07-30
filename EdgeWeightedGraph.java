@@ -3,7 +3,7 @@ public class EdgeWeightedGraph{
 	private int E;
 	private Bag<Edge>[] adj;
 
-	public Edge EdgeWeightedGraph(int V){
+	public EdgeWeightedGraph(int V){
 		this.V = V;
 		this.E = 0;
 		adj = (Bag<Edge>[]) new Bag[V];
@@ -17,7 +17,9 @@ public class EdgeWeightedGraph{
 		for (int i = 0; i < E; i++){
 			int v = in.readInt();
 			int w = in.readInt();
-			addEdge(v, w);
+			double weight = in.readDouble():
+			Edge e = new Edge(v, w, weight);
+			addEdge(e);
 		}
 	}
 
